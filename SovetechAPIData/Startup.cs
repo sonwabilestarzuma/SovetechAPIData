@@ -32,7 +32,7 @@ namespace SovetechAPIData
                 options.AddPolicy(name: "WasmPolicy",
                     builder =>
                     {
-                        builder.WithOrigins(origins: new string[] { "https://localhost:44317", "https://localhost:5001", "https://localhost:44317" })
+                        builder.WithOrigins(origins: new string[] { "https://localhost:44317", "https://localhost:5000", "https://localhost:44317" })
                         .WithMethods(methods: new string[] { "GET", "POST", "PUT", "DELETE" });
                     });
             });
